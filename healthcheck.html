@@ -10,6 +10,7 @@ body { font: 1rem/1.6 system-ui,sans-serif; margin: 0; padding: 1rem;
         color: #17212b; background: #f4f6f8; overflow-wrap: anywhere; }
 main { max-width: 48rem; margin: auto; padding: 1.5rem; background: white; }
 dt { font-weight: bold; margin-top: 1rem; } dd { margin-left: 0; }
+.email-section { border-top: 2px solid #e1e4e8; margin-top: 1.5rem; padding-top: 1rem; }
 </style>
 </head>
 <body><main>
@@ -17,11 +18,19 @@ dt { font-weight: bold; margin-top: 1rem; } dd { margin-left: 0; }
 <h2>USGS reading test</h2>
 <p>Guided browser reading, independently checked against USGS.</p>
 <dl><dt>Status</dt><dd>PASS</dd>
-<dt>Healthcheck run</dt><dd>healthcheck-29af3cf9dafb</dd>
-<dt>Started (UTC)</dt><dd>2026-09-27T02:46:59.089254+00:00</dd>
-<dt>Reading test run</dt><dd>usgs-aedb10b92350</dd>
-<dt>Duration (seconds)</dt><dd>95.2</dd>
-<dt>Event ID</dt><dd>us7000t1r9</dd>
-<dt>Magnitude</dt><dd>4.0</dd></dl>
+<dt>Healthcheck run</dt><dd>healthcheck-3aed0352f5db</dd>
+<dt>Started (UTC)</dt><dd>2026-10-04T03:24:03.372445+00:00</dd>
+<dt>Reading test run</dt><dd>usgs-439cf4408f46</dd>
+<dt>Duration (seconds)</dt><dd>106.8</dd>
+<dt>Event ID</dt><dd>us6000svq7</dd>
+<dt>Magnitude</dt><dd>4.4</dd>
+<dt>Email read (himalaya)</dt><dd>PASS</dd>
+<dt>Email details</dt><dd>3 envelopes listed. Latest: &#x27;Simplify your scheduling and meetings&#x27; from The Google Workspace Team. Body read OK (5695 chars).</dd></dl>
+
+<div class="email-section">
+<h2>Email read (IMAP via himalaya)</h2>
+<p>Validates IMAP sign-in by listing envelopes and reading the first message body. The app password secret command is exercised end-to-end.</p>
+</div>
+
 <p>This is one reading smoke test, not an assessment of all Hermes capabilities.</p>
 </main></body></html>
